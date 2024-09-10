@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "ConnectMyDoc_Domain_Layer/1.0.0": {
+        "runtime": {
+          "ConnectMyDoc_Domain_Layer.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "ConnectMyDoc_Domain_Layer/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
