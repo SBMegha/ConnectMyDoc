@@ -25,10 +25,8 @@ namespace ConnectMyDoc_API_Layer
             });
             builder.Services.AddTransient<IPatientRepository, PatientRepository>();
             builder.Services.AddTransient<IPatientAddressRepository, PatientAddressRepository>();
-            builder.Services.AddTransient<IHealthConditionRepository, HealthConditionRepository>();
             builder.Services.AddTransient<PatientService>();
             builder.Services.AddTransient<PatientAddressService>();
-            builder.Services.AddTransient<HealthConditionService>();
 
 
             builder.Services.AddControllers();

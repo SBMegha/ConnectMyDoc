@@ -10,13 +10,20 @@ namespace ConnectMyDoc_Data_Layer.Migrations
         /// <inheritdoc />
         protected override void Up(MigrationBuilder migrationBuilder)
         {
-
+            migrationBuilder.AddColumn<int>(
+                name: "PatientId",
+                table: "PatientAddresses",
+                type: "int",
+                nullable: false,
+                defaultValue: 0);
         }
 
         /// <inheritdoc />
         protected override void Down(MigrationBuilder migrationBuilder)
         {
-
+            migrationBuilder.DropColumn(
+                name: "PatientId",
+                table: "PatientAddresses");
         }
     }
 }

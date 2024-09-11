@@ -10,7 +10,7 @@ namespace ConnectMyDoc_Domain_Layer.Entity
     {
         [Required]
         [Key]
-        public long PatientId { get; set; }
+        public int PatientId { get; set; }
 
         [Required]
         [MinLength(3)]
@@ -25,9 +25,8 @@ namespace ConnectMyDoc_Domain_Layer.Entity
         public string Phone { get; set; }
         [Required]
         public int Age { get; set; }
-
         [Required]
-        public string Dob { get; set; }
+        public DateOnly Dob { get; set; }
         [Required]
         public string Gender { get; set; }
         [Required]
@@ -35,11 +34,9 @@ namespace ConnectMyDoc_Domain_Layer.Entity
         [Required]
         public DateTime PreferredEndTime { get; set; }
         public DateTime CreatedDate { get; set; }
-        public long CreatedBy { get; set; }
+        public int CreatedBy { get; set; }
         public DateTime LastModifiedDate { get; set; }
-        public long LastModifiedBy { get; set; }
-        public string Status { get; set; }
-
+        public int LastModifiedBy { get; set; }
         public Clinic? PreferredClinic { get; set; }
 
         //For image
@@ -47,12 +44,8 @@ namespace ConnectMyDoc_Domain_Layer.Entity
 
         [Required]
         [ForeignKey(nameof(PatientAddress))]
-        public long PatientAddressId { get; set; }
-        public PatientAddress PatientAddress { get; set; }
-
-        [Required]
-        [ForeignKey(nameof(HealthCondition))]
-        public long HealthConditionId { get; set; }
-        public HealthCondition HealthCondition { get; set; }
+        public int PatientAddressId { get; set; }
+        public virtual PatientAddress PatientAddress { get; set; }
+        public int PreferredDoctorId { get; set; }
     }
 }

@@ -34,8 +34,5 @@ namespace ConnectMyDoc_Data_Layer.Context
         public DbSet<Patient> Patients { get; set; }
         public DbSet<PatientAddress> PatientAddresses { get; set; }
 
-        public DbSet<HealthCondition> HealthConditions { get; set; }
-
-
     }
 }

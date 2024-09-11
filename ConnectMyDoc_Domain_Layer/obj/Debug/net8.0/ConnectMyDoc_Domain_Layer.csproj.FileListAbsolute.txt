@@ -9,3 +9,4 @@ C:\Users\Megha\Documents\Projects\ConnectMyDoc_FinalProject\ConnectMyDoc_Domain_
 C:\Users\Megha\Documents\Projects\ConnectMyDoc_FinalProject\ConnectMyDoc_Domain_Layer\obj\Debug\net8.0\refint\ConnectMyDoc_Domain_Layer.dll
 C:\Users\Megha\Documents\Projects\ConnectMyDoc_FinalProject\ConnectMyDoc_Domain_Layer\obj\Debug\net8.0\ConnectMyDoc_Domain_Layer.pdb
 C:\Users\Megha\Documents\Projects\ConnectMyDoc_FinalProject\ConnectMyDoc_Domain_Layer\obj\Debug\net8.0\ref\ConnectMyDoc_Domain_Layer.dll
+C:\Users\Megha\Documents\Projects\ConnectMyDoc_FinalProject\ConnectMyDoc_Domain_Layer\obj\Debug\net8.0\ConnectMyDoc_Domain_Layer.sourcelink.json

@@ -12,7 +12,7 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace ConnectMyDoc_Data_Layer.Migrations
 {
     [DbContext(typeof(PatientCMDDbContext))]
-    [Migration("20240910061926_init")]
+    [Migration("20240911052249_init")]
     partial class init
     {
         /// <inheritdoc />
@@ -25,55 +25,25 @@ namespace ConnectMyDoc_Data_Layer.Migrations
 
             SqlServerModelBuilderExtensions.UseIdentityColumns(modelBuilder);
 
-            modelBuilder.Entity("ConnectMyDoc_Domain_Layer.Entity.HealthCondition", b =>
-                {
-                    b.Property<long>("HealthConditionId")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("bigint");
-
-                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<long>("HealthConditionId"));
-
-                    b.Property<string>("Condition")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<long>("CreatedBy")
-                        .HasColumnType("bigint");
-
-                    b.Property<DateTime>("CreatedDate")
-                        .HasColumnType("datetime2");
-
-                    b.Property<long>("LastModifiedBy")
-                        .HasColumnType("bigint");
-
-                    b.Property<DateTime>("LastModifiedDate")
-                        .HasColumnType("datetime2");
-
-                    b.HasKey("HealthConditionId");
-
-                    b.ToTable("HealthConditions");
-                });
-
             modelBuilder.Entity("ConnectMyDoc_Domain_Layer.Entity.Patient", b =>
                 {
-                    b.Property<long>("PatientId")
+                    b.Property<int>("PatientId")
                         .ValueGeneratedOnAdd()
-                        .HasColumnType("bigint");
+                        .HasColumnType("int");
 
-                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<long>("PatientId"));
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("PatientId"));
 
                     b.Property<int>("Age")
                         .HasColumnType("int");
 
-                    b.Property<long>("CreatedBy")
-                        .HasColumnType("bigint");
+                    b.Property<int>("CreatedBy")
+                        .HasColumnType("int");
 
                     b.Property<DateTime>("CreatedDate")
                         .HasColumnType("datetime2");
 
-                    b.Property<string>("Dob")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
+                    b.Property<DateOnly>("Dob")
+                        .HasColumnType("date");
 
                     b.Property<string>("Email")
                         .IsRequired()
@@ -83,21 +53,17 @@ namespace ConnectMyDoc_Data_Layer.Migrations
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<long>("HealthConditionId")
-                        .HasColumnType("bigint");
-
                     b.Property<byte[]>("Image")
-                        .IsRequired()
                         .HasColumnType("varbinary(max)");
 
-                    b.Property<long>("LastModifiedBy")
-                        .HasColumnType("bigint");
+                    b.Property<int>("LastModifiedBy")
+                        .HasColumnType("int");
 
                     b.Property<DateTime>("LastModifiedDate")
                         .HasColumnType("datetime2");
 
-                    b.Property<long>("PatientAddressId")
-                        .HasColumnType("bigint");
+                    b.Property<int>("PatientAddressId")
+                        .HasColumnType("int");
 
                     b.Property<string>("PatientName")
                         .IsRequired()
@@ -108,19 +74,19 @@ namespace ConnectMyDoc_Data_Layer.Migrations
                         .HasMaxLength(10)
                         .HasColumnType("nvarchar(10)");
 
+                    b.Property<int?>("PreferredClinic")
+                        .HasColumnType("int");
+
+                    b.Property<int>("PreferredDoctorId")
+                        .HasColumnType("int");
+
                     b.Property<DateTime>("PreferredEndTime")
                         .HasColumnType("datetime2");
 
                     b.Property<DateTime>("PreferredStartTime")
                         .HasColumnType("datetime2");
 
-                    b.Property<string>("Status")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
-
                     b.HasKey("PatientId");
-
-                    b.HasIndex("HealthConditionId");
 
                     b.HasIndex("PatientAddressId");
 
@@ -129,11 +95,11 @@ namespace ConnectMyDoc_Data_Layer.Migrations
 
             modelBuilder.Entity("ConnectMyDoc_Domain_Layer.Entity.PatientAddress", b =>
                 {
-                    b.Property<long>("PatientAddressId")
+                    b.Property<int>("PatientAddressId")
                         .ValueGeneratedOnAdd()
-                        .HasColumnType("bigint");
+                        .HasColumnType("int");
 
-                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<long>("PatientAddressId"));
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("PatientAddressId"));
 
                     b.Property<string>("City")
                         .IsRequired()
@@ -143,14 +109,14 @@ namespace ConnectMyDoc_Data_Layer.Migrations
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<long>("CreatedBy")
-                        .HasColumnType("bigint");
+                    b.Property<int>("CreatedBy")
+                        .HasColumnType("int");
 
                     b.Property<DateTime>("CreatedDate")
                         .HasColumnType("datetime2");
 
-                    b.Property<long>("LastModifiedBy")
-                        .HasColumnType("bigint");
+                    b.Property<int>("LastModifiedBy")
+                        .HasColumnType("int");
 
                     b.Property<DateTime>("LastModifiedDate")
                         .HasColumnType("datetime2");
@@ -173,19 +139,11 @@ namespace ConnectMyDoc_Data_Layer.Migrations
 
             modelBuilder.Entity("ConnectMyDoc_Domain_Layer.Entity.Patient", b =>
                 {
-                    b.HasOne("ConnectMyDoc_Domain_Layer.Entity.HealthCondition", "HealthCondition")
-                        .WithMany()
-                        .HasForeignKey("HealthConditionId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
-
                     b.HasOne("ConnectMyDoc_Domain_Layer.Entity.PatientAddress", "PatientAddress")
                         .WithMany()
                         .HasForeignKey("PatientAddressId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
-
-                    b.Navigation("HealthCondition");
 
                     b.Navigation("PatientAddress");
                 });

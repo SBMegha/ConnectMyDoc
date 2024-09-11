@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ConnectMyDoc_API_Layer")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c970b899610abe67ce74b04e0c08538fef2a2059")]
 [assembly: System.Reflection.AssemblyProductAttribute("ConnectMyDoc_API_Layer")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ConnectMyDoc_API_Layer")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

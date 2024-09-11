@@ -7,5 +7,6 @@ namespace ConnectMyDoc_API_Layer.Controllers
     [ApiController]
     public class PatientsController : ControllerBase
     {
+
     }
 }

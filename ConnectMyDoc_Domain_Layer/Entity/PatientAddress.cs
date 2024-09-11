@@ -1,5 +1,6 @@
 ﻿
 using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
 
 
 
@@ -9,7 +10,7 @@ namespace ConnectMyDoc_Domain_Layer.Entity
     {
         [Required]
         [Key]
-        public long PatientAddressId { get; set; } //Id of Patient Address 
+        public int PatientAddressId { get; set; } //Id of Patient Address 
 
         public string StreetAddress { get; set; } //Street address of Patient
 
@@ -23,11 +24,12 @@ namespace ConnectMyDoc_Domain_Layer.Entity
 
         public DateTime CreatedDate { get; set; } //Date when Patient Address was created
 
-        public long CreatedBy { get; set; } //Id of person who created Patient Address 
+        public int CreatedBy { get; set; } //Id of person who created Patient Address 
 
         public DateTime LastModifiedDate { get; set; } //Date when Patient Address data was modified last time 
 
-        public long LastModifiedBy { get; set; } //Id of Person who modified Patient Address Last time
+        public int LastModifiedBy { get; set; } //Id of Person who modified Patient Address Last time
 
+        public int PatientId { get; set; }
     }
 }

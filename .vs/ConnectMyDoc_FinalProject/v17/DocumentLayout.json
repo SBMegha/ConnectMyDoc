@@ -3,11 +3,24 @@
   "WorkspaceRootPath": "C:\\Users\\Megha\\Documents\\Projects\\ConnectMyDoc_FinalProject\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|ViewDataWindow_MSSQL__/_localdb__mssqllocaldb/PatientCMDDb/True/SqlTable/dbo.Patients.sql||{0058A1F7-65F3-4DB9-B3D0-CA7E64DD73CD}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Megha\\Documents\\Projects\\ConnectMyDoc_FinalProject\\ConnectMyDoc_Data_Layer\\Migrations\\20240911052249_init.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:ConnectMyDoc_Data_Layer\\Migrations\\20240911052249_init.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Megha\\Documents\\Projects\\ConnectMyDoc_FinalProject\\ConnectMyDoc_Data_Layer\\Migrations\\20240910063502_init1.3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:ConnectMyDoc_Data_Layer\\Migrations\\20240910063502_init1.3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{8D2BA5E8-EE4F-4F45-BF7E-45CCFA35D1CD}|ConnectMyDoc_Data_Layer\\ConnectMyDoc_Data_Layer.csproj|c:\\users\\megha\\documents\\projects\\connectmydoc_finalproject\\connectmydoc_data_layer\\repositories\\patientrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8D2BA5E8-EE4F-4F45-BF7E-45CCFA35D1CD}|ConnectMyDoc_Data_Layer\\ConnectMyDoc_Data_Layer.csproj|solutionrelative:connectmydoc_data_layer\\repositories\\patientrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8D2BA5E8-EE4F-4F45-BF7E-45CCFA35D1CD}|ConnectMyDoc_Data_Layer\\ConnectMyDoc_Data_Layer.csproj|c:\\users\\megha\\documents\\projects\\connectmydoc_finalproject\\connectmydoc_data_layer\\repositories\\patientaddressrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8D2BA5E8-EE4F-4F45-BF7E-45CCFA35D1CD}|ConnectMyDoc_Data_Layer\\ConnectMyDoc_Data_Layer.csproj|solutionrelative:connectmydoc_data_layer\\repositories\\patientaddressrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3965C479-2045-40F3-8E19-CE5D6616FD5A}|ConnectMyDoc_Domain_Layer\\ConnectMyDoc_Domain_Layer.csproj|c:\\users\\megha\\documents\\projects\\connectmydoc_finalproject\\connectmydoc_domain_layer\\repository\\ipatientrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3965C479-2045-40F3-8E19-CE5D6616FD5A}|ConnectMyDoc_Domain_Layer\\ConnectMyDoc_Domain_Layer.csproj|solutionrelative:connectmydoc_domain_layer\\repository\\ipatientrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3965C479-2045-40F3-8E19-CE5D6616FD5A}|ConnectMyDoc_Domain_Layer\\ConnectMyDoc_Domain_Layer.csproj|c:\\users\\megha\\documents\\projects\\connectmydoc_finalproject\\connectmydoc_domain_layer\\repository\\ipatientaddressrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3965C479-2045-40F3-8E19-CE5D6616FD5A}|ConnectMyDoc_Domain_Layer\\ConnectMyDoc_Domain_Layer.csproj|solutionrelative:connectmydoc_domain_layer\\repository\\ipatientaddressrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{3965C479-2045-40F3-8E19-CE5D6616FD5A}|ConnectMyDoc_Domain_Layer\\ConnectMyDoc_Domain_Layer.csproj|c:\\users\\megha\\documents\\projects\\connectmydoc_finalproject\\connectmydoc_domain_layer\\entity\\patient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -18,16 +31,16 @@
       "RelativeMoniker": "D:0:0:{3965C479-2045-40F3-8E19-CE5D6616FD5A}|ConnectMyDoc_Domain_Layer\\ConnectMyDoc_Domain_Layer.csproj|solutionrelative:connectmydoc_domain_layer\\entity\\patientaddress.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{1652204B-6C6F-441A-868E-425786DBCF25}|ConnectMyDoc_API_Layer\\ConnectMyDoc_API_Layer.csproj|c:\\users\\megha\\documents\\projects\\connectmydoc_finalproject\\connectmydoc_api_layer\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1652204B-6C6F-441A-868E-425786DBCF25}|ConnectMyDoc_API_Layer\\ConnectMyDoc_API_Layer.csproj|solutionrelative:connectmydoc_api_layer\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8D2BA5E8-EE4F-4F45-BF7E-45CCFA35D1CD}|ConnectMyDoc_Data_Layer\\ConnectMyDoc_Data_Layer.csproj|c:\\users\\megha\\documents\\projects\\connectmydoc_finalproject\\connectmydoc_data_layer\\context\\patientcmddbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8D2BA5E8-EE4F-4F45-BF7E-45CCFA35D1CD}|ConnectMyDoc_Data_Layer\\ConnectMyDoc_Data_Layer.csproj|solutionrelative:connectmydoc_data_layer\\context\\patientcmddbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{3965C479-2045-40F3-8E19-CE5D6616FD5A}|ConnectMyDoc_Domain_Layer\\ConnectMyDoc_Domain_Layer.csproj|c:\\users\\megha\\documents\\projects\\connectmydoc_finalproject\\connectmydoc_domain_layer\\enums\\clinic.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3965C479-2045-40F3-8E19-CE5D6616FD5A}|ConnectMyDoc_Domain_Layer\\ConnectMyDoc_Domain_Layer.csproj|solutionrelative:connectmydoc_domain_layer\\enums\\clinic.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3965C479-2045-40F3-8E19-CE5D6616FD5A}|ConnectMyDoc_Domain_Layer\\ConnectMyDoc_Domain_Layer.csproj|c:\\users\\megha\\documents\\projects\\connectmydoc_finalproject\\connectmydoc_domain_layer\\repository\\ipatientrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3965C479-2045-40F3-8E19-CE5D6616FD5A}|ConnectMyDoc_Domain_Layer\\ConnectMyDoc_Domain_Layer.csproj|solutionrelative:connectmydoc_domain_layer\\repository\\ipatientrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3965C479-2045-40F3-8E19-CE5D6616FD5A}|ConnectMyDoc_Domain_Layer\\ConnectMyDoc_Domain_Layer.csproj|c:\\users\\megha\\documents\\projects\\connectmydoc_finalproject\\connectmydoc_domain_layer\\repository\\ipatientaddressrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3965C479-2045-40F3-8E19-CE5D6616FD5A}|ConnectMyDoc_Domain_Layer\\ConnectMyDoc_Domain_Layer.csproj|solutionrelative:connectmydoc_domain_layer\\repository\\ipatientaddressrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{1652204B-6C6F-441A-868E-425786DBCF25}|ConnectMyDoc_API_Layer\\ConnectMyDoc_API_Layer.csproj|c:\\users\\megha\\documents\\projects\\connectmydoc_finalproject\\connectmydoc_api_layer\\services\\patientservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -41,47 +54,132 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "dbo.Patients [Data]",
-              "DocumentMoniker": "ViewDataWindow_MSSQL__/_localdb__mssqllocaldb/PatientCMDDb/True/SqlTable/dbo.Patients.sql",
-              "ToolTip": "dbo.Patients [Data]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
-              "WhenOpened": "2024-09-10T06:35:26.839Z",
+              "Title": "20240911052249_init.cs",
+              "DocumentMoniker": "C:\\Users\\Megha\\Documents\\Projects\\ConnectMyDoc_FinalProject\\ConnectMyDoc_Data_Layer\\Migrations\\20240911052249_init.cs",
+              "RelativeDocumentMoniker": "ConnectMyDoc_Data_Layer\\Migrations\\20240911052249_init.cs",
+              "ToolTip": "C:\\Users\\Megha\\Documents\\Projects\\ConnectMyDoc_FinalProject\\ConnectMyDoc_Data_Layer\\Migrations\\20240911052249_init.cs",
+              "RelativeToolTip": "ConnectMyDoc_Data_Layer\\Migrations\\20240911052249_init.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAaAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-11T05:22:50.622Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "20240910063502_init1.3.cs",
-              "DocumentMoniker": "C:\\Users\\Megha\\Documents\\Projects\\ConnectMyDoc_FinalProject\\ConnectMyDoc_Data_Layer\\Migrations\\20240910063502_init1.3.cs",
-              "RelativeDocumentMoniker": "ConnectMyDoc_Data_Layer\\Migrations\\20240910063502_init1.3.cs",
-              "ToolTip": "C:\\Users\\Megha\\Documents\\Projects\\ConnectMyDoc_FinalProject\\ConnectMyDoc_Data_Layer\\Migrations\\20240910063502_init1.3.cs",
-              "RelativeToolTip": "ConnectMyDoc_Data_Layer\\Migrations\\20240910063502_init1.3.cs",
-              "ViewState": "AQIAAAgAAAAAAAAAAAAAwAAAAAAAAAAA",
+              "Title": "PatientRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Megha\\Documents\\Projects\\ConnectMyDoc_FinalProject\\ConnectMyDoc_Data_Layer\\Repositories\\PatientRepository.cs",
+              "RelativeDocumentMoniker": "ConnectMyDoc_Data_Layer\\Repositories\\PatientRepository.cs",
+              "ToolTip": "C:\\Users\\Megha\\Documents\\Projects\\ConnectMyDoc_FinalProject\\ConnectMyDoc_Data_Layer\\Repositories\\PatientRepository.cs",
+              "RelativeToolTip": "ConnectMyDoc_Data_Layer\\Repositories\\PatientRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACcAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-10T06:35:02.881Z",
+              "WhenOpened": "2024-09-11T05:21:30.969Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 2,
+              "Title": "PatientAddressRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Megha\\Documents\\Projects\\ConnectMyDoc_FinalProject\\ConnectMyDoc_Data_Layer\\Repositories\\PatientAddressRepository.cs",
+              "RelativeDocumentMoniker": "ConnectMyDoc_Data_Layer\\Repositories\\PatientAddressRepository.cs",
+              "ToolTip": "C:\\Users\\Megha\\Documents\\Projects\\ConnectMyDoc_FinalProject\\ConnectMyDoc_Data_Layer\\Repositories\\PatientAddressRepository.cs",
+              "RelativeToolTip": "ConnectMyDoc_Data_Layer\\Repositories\\PatientAddressRepository.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-11T05:16:39.279Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Megha\\Documents\\Projects\\ConnectMyDoc_FinalProject\\ConnectMyDoc_API_Layer\\Program.cs",
+              "RelativeDocumentMoniker": "ConnectMyDoc_API_Layer\\Program.cs",
+              "ToolTip": "C:\\Users\\Megha\\Documents\\Projects\\ConnectMyDoc_FinalProject\\ConnectMyDoc_API_Layer\\Program.cs",
+              "RelativeToolTip": "ConnectMyDoc_API_Layer\\Program.cs",
+              "ViewState": "AQIAACgAAAAAAAAAAAAQwDIAAAAsAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-11T04:54:28.153Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "PatientCMDDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\Megha\\Documents\\Projects\\ConnectMyDoc_FinalProject\\ConnectMyDoc_Data_Layer\\Context\\PatientCMDDbContext.cs",
+              "RelativeDocumentMoniker": "ConnectMyDoc_Data_Layer\\Context\\PatientCMDDbContext.cs",
+              "ToolTip": "C:\\Users\\Megha\\Documents\\Projects\\ConnectMyDoc_FinalProject\\ConnectMyDoc_Data_Layer\\Context\\PatientCMDDbContext.cs",
+              "RelativeToolTip": "ConnectMyDoc_Data_Layer\\Context\\PatientCMDDbContext.cs",
+              "ViewState": "AQIAAB0AAAAAAAAAAAAgwCIAAABDAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-11T04:54:13.526Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
               "Title": "PatientAddress.cs",
               "DocumentMoniker": "C:\\Users\\Megha\\Documents\\Projects\\ConnectMyDoc_FinalProject\\ConnectMyDoc_Domain_Layer\\Entity\\PatientAddress.cs",
               "RelativeDocumentMoniker": "ConnectMyDoc_Domain_Layer\\Entity\\PatientAddress.cs",
               "ToolTip": "C:\\Users\\Megha\\Documents\\Projects\\ConnectMyDoc_FinalProject\\ConnectMyDoc_Domain_Layer\\Entity\\PatientAddress.cs",
               "RelativeToolTip": "ConnectMyDoc_Domain_Layer\\Entity\\PatientAddress.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "ViewState": "AQIAABMAAAAAAAAAAAAkwB8AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-10T06:34:11.219Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Patient.cs",
+              "DocumentMoniker": "C:\\Users\\Megha\\Documents\\Projects\\ConnectMyDoc_FinalProject\\ConnectMyDoc_Domain_Layer\\Entity\\Patient.cs",
+              "RelativeDocumentMoniker": "ConnectMyDoc_Domain_Layer\\Entity\\Patient.cs",
+              "ToolTip": "C:\\Users\\Megha\\Documents\\Projects\\ConnectMyDoc_FinalProject\\ConnectMyDoc_Domain_Layer\\Entity\\Patient.cs",
+              "RelativeToolTip": "ConnectMyDoc_Domain_Layer\\Entity\\Patient.cs",
+              "ViewState": "AQIAABcAAAAAAAAAAAAgwCAAAAA4AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-10T06:30:06.779Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "IPatientRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Megha\\Documents\\Projects\\ConnectMyDoc_FinalProject\\ConnectMyDoc_Domain_Layer\\Repository\\IPatientRepository.cs",
+              "RelativeDocumentMoniker": "ConnectMyDoc_Domain_Layer\\Repository\\IPatientRepository.cs",
+              "ToolTip": "C:\\Users\\Megha\\Documents\\Projects\\ConnectMyDoc_FinalProject\\ConnectMyDoc_Domain_Layer\\Repository\\IPatientRepository.cs",
+              "RelativeToolTip": "ConnectMyDoc_Domain_Layer\\Repository\\IPatientRepository.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAABUAAAAXAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-10T06:29:38.306Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 4,
+              "Title": "IPatientAddressRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Megha\\Documents\\Projects\\ConnectMyDoc_FinalProject\\ConnectMyDoc_Domain_Layer\\Repository\\IPatientAddressRepository.cs",
+              "RelativeDocumentMoniker": "ConnectMyDoc_Domain_Layer\\Repository\\IPatientAddressRepository.cs",
+              "ToolTip": "C:\\Users\\Megha\\Documents\\Projects\\ConnectMyDoc_FinalProject\\ConnectMyDoc_Domain_Layer\\Repository\\IPatientAddressRepository.cs",
+              "RelativeToolTip": "ConnectMyDoc_Domain_Layer\\Repository\\IPatientAddressRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-10T06:29:36.687Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
               "Title": "Clinic.cs",
               "DocumentMoniker": "C:\\Users\\Megha\\Documents\\Projects\\ConnectMyDoc_FinalProject\\ConnectMyDoc_Domain_Layer\\Enums\\Clinic.cs",
               "RelativeDocumentMoniker": "ConnectMyDoc_Domain_Layer\\Enums\\Clinic.cs",
@@ -89,51 +187,11 @@
               "RelativeToolTip": "ConnectMyDoc_Domain_Layer\\Enums\\Clinic.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-10T06:31:57.836Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-10T06:31:57.836Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Patient.cs",
-              "DocumentMoniker": "C:\\Users\\Megha\\Documents\\Projects\\ConnectMyDoc_FinalProject\\ConnectMyDoc_Domain_Layer\\Entity\\Patient.cs",
-              "RelativeDocumentMoniker": "ConnectMyDoc_Domain_Layer\\Entity\\Patient.cs",
-              "ToolTip": "C:\\Users\\Megha\\Documents\\Projects\\ConnectMyDoc_FinalProject\\ConnectMyDoc_Domain_Layer\\Entity\\Patient.cs",
-              "RelativeToolTip": "ConnectMyDoc_Domain_Layer\\Entity\\Patient.cs",
-              "ViewState": "AQIAACAAAAAAAAAAAAAwwCoAAAAVAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-10T06:30:06.779Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "IPatientRepository.cs",
-              "DocumentMoniker": "C:\\Users\\Megha\\Documents\\Projects\\ConnectMyDoc_FinalProject\\ConnectMyDoc_Domain_Layer\\Repository\\IPatientRepository.cs",
-              "RelativeDocumentMoniker": "ConnectMyDoc_Domain_Layer\\Repository\\IPatientRepository.cs",
-              "ToolTip": "C:\\Users\\Megha\\Documents\\Projects\\ConnectMyDoc_FinalProject\\ConnectMyDoc_Domain_Layer\\Repository\\IPatientRepository.cs",
-              "RelativeToolTip": "ConnectMyDoc_Domain_Layer\\Repository\\IPatientRepository.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-10T06:29:38.306Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "IPatientAddressRepository.cs",
-              "DocumentMoniker": "C:\\Users\\Megha\\Documents\\Projects\\ConnectMyDoc_FinalProject\\ConnectMyDoc_Domain_Layer\\Repository\\IPatientAddressRepository.cs",
-              "RelativeDocumentMoniker": "ConnectMyDoc_Domain_Layer\\Repository\\IPatientAddressRepository.cs",
-              "ToolTip": "C:\\Users\\Megha\\Documents\\Projects\\ConnectMyDoc_FinalProject\\ConnectMyDoc_Domain_Layer\\Repository\\IPatientAddressRepository.cs",
-              "RelativeToolTip": "ConnectMyDoc_Domain_Layer\\Repository\\IPatientAddressRepository.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-10T06:29:36.687Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 10,
               "Title": "PatientService.cs",
               "DocumentMoniker": "C:\\Users\\Megha\\Documents\\Projects\\ConnectMyDoc_FinalProject\\ConnectMyDoc_API_Layer\\Services\\PatientService.cs",
               "RelativeDocumentMoniker": "ConnectMyDoc_API_Layer\\Services\\PatientService.cs",
@@ -141,12 +199,7 @@
               "RelativeToolTip": "ConnectMyDoc_API_Layer\\Services\\PatientService.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-10T04:14:19.627Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+              "WhenOpened": "2024-09-10T04:14:19.627Z"
             }
           ]
         }

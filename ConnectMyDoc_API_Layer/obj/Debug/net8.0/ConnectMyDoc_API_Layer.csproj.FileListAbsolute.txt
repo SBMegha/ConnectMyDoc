@@ -73,3 +73,4 @@ C:\Users\Megha\Documents\Projects\ConnectMyDoc_FinalProject\ConnectMyDoc_API_Lay
 C:\Users\Megha\Documents\Projects\ConnectMyDoc_FinalProject\ConnectMyDoc_API_Layer\obj\Debug\net8.0\ConnectMyDoc_API_Layer.pdb
 C:\Users\Megha\Documents\Projects\ConnectMyDoc_FinalProject\ConnectMyDoc_API_Layer\obj\Debug\net8.0\ConnectMyDoc_API_Layer.genruntimeconfig.cache
 C:\Users\Megha\Documents\Projects\ConnectMyDoc_FinalProject\ConnectMyDoc_API_Layer\obj\Debug\net8.0\ref\ConnectMyDoc_API_Layer.dll
+C:\Users\Megha\Documents\Projects\ConnectMyDoc_FinalProject\ConnectMyDoc_API_Layer\obj\Debug\net8.0\ConnectMyDoc_API_Layer.sourcelink.json
